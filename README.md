@@ -19,22 +19,21 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/stopitmane/blog-platform-frontend.git
 Navigate to the frontend directory:
 
-bash
+   ```bash
 
 cd blog-platform-frontend
-Install dependencies:
+Create a virtual environment:
 
-Run the following command to install the necessary dependencies:
+It's recommended to use a virtual environment to manage dependencies.
+  ```bash
+  npm install
 
-bash
-
-npm install
 Development Setup
 Start the development server:
 
 After the dependencies have been installed, start the local development server:
 
-bash
+```bash
 
 npm start
 
@@ -66,37 +65,7 @@ blog-platform-frontend/
 ├── package.json               # Project metadata and dependencies
 └── README.md                  # This file
 
-Key Features
-Homepage: Displays the list of blog posts with pagination and search functionality.
 
-Post Page: Displays the details of a single blog post, including the author, content, comments, etc.
-
-User Authentication: Includes login, signup, and logout functionality. JWT tokens are used for authentication.
-
-User Profile: Allows users to view and edit their profile, as well as view their post history.
-
-Post Creation and Editing: Authenticated users can create and edit posts.
-
-Responsive Layout: The design is mobile-first, ensuring a seamless experience across devices.
-
-API Integration
-The frontend communicates with the backend through the following API endpoints:
-
-GET /api/posts: Fetches a list of posts.
-
-GET /api/posts/{id}: Fetches details of a single post.
-
-POST /api/posts: Allows authenticated users to create a new post.
-
-PUT /api/posts/{id}: Allows authenticated users to edit an existing post.
-
-POST /api/auth/login: Logs a user in and returns a JWT token.
-
-POST /api/auth/signup: Registers a new user.
-
-GET /api/user/profile: Retrieves the logged-in user's profile.
-
-PUT /api/user/profile: Allows the user to update their profile.
 
 Deployment
 To deploy the frontend:
