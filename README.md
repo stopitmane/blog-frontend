@@ -16,7 +16,7 @@ Before you begin, ensure you have the following installed:
    Clone the project repository to your local machine using Git.
 
    ```bash
-   git clone https://github.com/yourusername/blog-platform-frontend.git
+   git clone https://github.com/stopitmane/blog-platform-frontend.git
 Navigate to the frontend directory:
 
 bash
